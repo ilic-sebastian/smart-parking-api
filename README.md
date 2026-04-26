@@ -25,7 +25,7 @@ The application allows managing cars inside a parking lot with a fixed capacity.
 * Update a car’s speed
 * Delete a car
 * Count total cars
-* Capacity limit handling (max. 5 cars)
+* Capacity limit handling (max. 5 cars, returns HTTP 409 if full)
 
 ---
 
@@ -82,7 +82,7 @@ Exceptions are handled in the controller and mapped to HTTP responses.
 * Java
 * Spring Boot
 * REST API
-* Maven (if used)
+* Maven 
 
 ---
 
@@ -108,4 +108,5 @@ This project was built to strengthen:
 
 ## Author
 
-[Sebastian Ilic]
+Sebastian Ilic
+GitHub: https://github.com/ilic-sebastian
